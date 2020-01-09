@@ -1,0 +1,211 @@
+plot [0:1000000][0:600] 'dynamic_array_time_c.plot' using 1:2 w lines title "Amortized C", 'dynamic_array_time_cpp.plot' using 1:2 w lines title "Amortized C++", 'dynamic_array_time_java.plot' using 1:2 w lines title "Amortized JAVA", 'dynamic_array_time_python.plot' using 1:2 w lines title "Amortized Python", 'dynamic_array_copy_c.plot' using 1:2 w boxes title "Memory Allocation"
+
+plot 'dynamic_array_memory_c.plot' using 1:3 w lines title "Espace memoire inutilise"
+
+plot 'dynamic_array_copy_c.plot' using 1:2 w boxes title "Nombre de copies de valeurs effectuees"
+
+
+
+**************************TP3 StatiqueHeap***************************************************************
+
+plot [0:1000000][0:600] 'dynamic_array_time_cVCROI.plot' using 1:2 w lines title "Amortized C"
+
+plot [0:1000000][0:600] 'dynamic_array_time_cVCROI.plot' using 1: w lines title "Amortized C"
+
+**************************TP3 DynamiqueHeap *********************************************************
+
+
+plot [0:1000000][0:600] 'dynamic_array_time_cVCRDYN(1.5).plot' using 1:2 w lines title "Amortized C",
+plot 'dynamic_array_memory_cVCRDYN(1.5).plot' using 1:3 w lines title "Espace memoire inutilise"
+plot 'dynamic_array_copy_cVCRDYN(1.5).plot' using 1:2 w boxes title "Nombre de copies de valeurs effectuees"
+
+plot [0:1000000][0:600] 'dynamic_array_time_cVCRDYN(1.58).plot' using 1:2 w lines title "Amortized C",
+plot 'dynamic_array_memory_cVCRDYN(1.58).plot' using 1:3 w lines title "Espace memoire inutilise"
+plot 'dynamic_array_copy_cVCRDYN(1.58).plot' using 1:2 w boxes title "Nombre de copies de valeurs effectuees"
+
+plot 'dynamic_array_copy_cVCRDYN(1.8).plot' using 1:2 w boxes title "Nombre de copies de valeurs effectuees"
+
+
+plot [0:1000000][0:600] 'dynamic_array_time_cVCRDYN(3).plot' using 1:3 w lines title "Amortized C",
+plot 'dynamic_array_memory_cVCRDYN(1.58).plot' using 1:3 w lines title "Espace memoire inutilise"
+plot 'dynamic_array_copy_cVCRDYN(1.58).plot' using 1:2 w boxes title "Nombre de copies de valeurs effectuees"
+
+
+plot [0:1000000][0:600] 'dynamic_array_time_cVCRDYN(3).plot' using 1:3 w lines title "Amortized C",
+plot 'dynamic_array_memory_cVCRDYN(3).plot' using 1:3 w lines title "Espace memoire inutilise"
+plot 'dynamic_array_copy_cVCRDYN(3).plot' using 1:2 w boxes title "Nombre de copies de valeurs effectuees
+
+
+ValDecDyn(cout-amorti)(1.5).png
+
+plot [0:1000000][0:600] 'dynamic_array_time_cVCRDYN(5).plot' using 1:3 w lines title "Amortized C",
+plot 'dynamic_array_memory_cVCRDYN(5).plot' using 1:3 w lines title "Espace memoire inutilise"
+plot 'dynamic_array_copy_cVCRDYN(5).plot' using 1:2 w boxes title "Nombre de copies de valeurs effectuees
+
+
+
+
+plot [0:1000000][0:600] 'dynamic_array_time_cVCRDYN(50).plot' using 1:3 w lines title "Amortized C",
+plot 'dynamic_array_memory_cVCRDYN(50).plot' using 1:3 w lines title "Espace memoire inutilise"
+plot 'dynamic_array_copy_cVCRDYN(50).plot' using 1:2 w boxes title "Nombre de copies de valeurs effectuees
+
+
+plot [0:1000000][0:600] 'dynamic_array_time_cVDECDYN(1.5).plot' using 1:3 w lines title "Amortized C",
+plot 'dynamic_array_memory_cVDECDYN(1.5).plot' using 1:3 w lines title "Espace memoire inutilise"
+plot 'dynamic_array_copy_cVDECDYN(1.5).plot' using 1:2 w boxes title "Nombre de copies de valeurs effectuees
+
+
+plot [0:1000000][0:600] 'dynamic_array_time_cVDECDYN(1.8).plot' using 1:3 w lines title "Amortized C",
+plot 'dynamic_array_memory_cVDECDYN(1.8).plot' using 1:3 w lines title "Espace memoire inutilise"
+plot 'dynamic_array_copy_cVDECDYN(1.8).plot' using 1:2 w boxes title "Nombre de copies de valeurs effectuees
+
+
+
+
+plot [0:1000000][0:600] 'dynamic_array_time_cVDECDYN(3).plot' using 1:3 w lines title "Amortized C",
+plot 'dynamic_array_memory_cVDECDYN(3).plot' using 1:3 w lines title "Espace memoire inutilise"
+plot 'dynamic_array_copy_cVDECDYN(3).plot' using 1:2 w boxes title "Nombre de copies de valeurs effectuees
+
+
+plot [0:1000000][0:600] 'dynamic_array_time_cVDECDYN(7).plot' using 1:3 w lines title "Amortized C",
+plot 'dynamic_array_memory_cVDECDYN(7).plot' using 1:3 w lines title "Espace memoire inutilise"
+plot 'dynamic_array_copy_cVDECDYN(7).plot' using 1:2 w boxes title "Nombre de copies de valeurs effectuees
+
+
+plot [0:1000000][0:600] 'dynamic_array_time_cVDECDYN(20).plot' using 1:3 w lines title "Amortized C",
+plot 'dynamic_array_memory_cVDECDYN(20).plot' using 1:3 w lines title "Espace memoire inutilise"
+plot 'dynamic_array_copy_cVDECDYN(20).plot' using 1:2 w boxes title "Nombre de copies de valeurs effectuees
+
+
+plot [0:1000000][0:600] 'dynamic_array_time_cVALADDDYN(1.5).plot' using 1:3 w lines title "Amortized C",
+plot 'dynamic_array_memory_cVALADDDYN(1.5).plot' using 1:3 w lines title "Espace memoire inutilise"
+plot 'dynamic_array_copy_cVALADDDYN(1.5).plot' using 1:2 w boxes title "Nombre de copies de valeurs effectuees
+
+
+plot [0:1000000][0:600] 'dynamic_array_time_cVALADDDYN(3).plot' using 1:3 w lines title "Amortized C",
+plot 'dynamic_array_memory_cVALADDDYN(3).plot' using 1:3 w lines title "Espace memoire inutilise"
+plot 'dynamic_array_copy_cVALADDDYN(3).plot' using 1:2 w boxes title "Nombre de copies de valeurs effectuees
+
+
+
+plot [0:1000000][0:600] 'dynamic_array_time_cVALADDDYN(2.3).plot' using 1:3 w lines title "Amortized C",
+plot 'dynamic_array_memory_cVALADDDYN(2.3).plot' using 1:3 w lines title "Espace memoire inutilise"
+plot 'dynamic_array_copy_cVALADDDYN(2.3).plot' using 1:2 w boxes title "Nombre de copies de valeurs effectuees
+ 
+
+
+
+
+plot [0:1000000][0:600] 'dynamic_array_time_cVALADDDYN(10).plot' using 1:3 w lines title "Amortized C",
+plot 'dynamic_array_memory_cVALADDDYN(10).plot' using 1:3 w lines title "Espace memoire inutilise"
+plot 'dynamic_array_copy_cVALADDDYN(10).plot' using 1:2 w boxes title "Nombre de copies de valeurs effectuees
+
+
+
+
+
+
+
+plot [0:1000000][0:600] 'dynamic_array_time_cVALADDDYN(3).plot' using 1:3 w lines title "Amortized C",
+plot 'dynamic_array_memory_cVALADDDYN(3).plot' using 1:3 w lines title "Espace memoire inutilise"
+plot 'dynamic_array_copy_cVALADDDYN(3).plot' using 1:2 w boxes title "Nombre de copies de valeurs effectuees
+
+plot [0:1000000][0:600] 'dynamic_array_time_VCRDYN(50).plot' using 1:3 w lines title "Amortized C",
+plot 'dynamic_array_memory_VCRDYN(50).plot' using 1:3 w lines title "Espace memoire inutilise"
+plot 'dynamic_array_copy_VCRDYN(50).plot' using 1:2 w boxes title "Nombre de copies de valeurs effectuees
+
+
+plot [0:1000000][0:600] 'dynamic_array_time_cInSUPP(1.5).plot' using 1:3 w lines title "Amortized C",
+plot 'dynamic_array_memory_cInSUPP(1.5).plot' using 1:3 w lines title "Espace memoire inutilise"
+plot 'dynamic_array_copy_cInSUPP(1.5).plot' using 1:2 w boxes title "Nombre de copies de valeurs effectuees"
+
+
+
+plot [0:1000000][0:600] 'dynamic_array_time_cInSUPP(2).plot' using 1:3 w lines title "Amortized C",
+plot 'dynamic_array_memory_cInSUPP(2).plot' using 1:3 w lines title "Espace memoire inutilise"
+plot 'dynamic_array_copy_cInSUPP(2).plot' using 1:2 w boxes title "Nombre de copies de valeurs effectuees"
+
+
+
+plot [0:1000000][0:600] 'dynamic_array_time_cInSUPP(7).plot' using 1:3 w lines title "Amortized C",
+plot 'dynamic_array_memory_cInSUPP(7).plot' using 1:3 w lines title "Espace memoire inutilise"
+plot 'dynamic_array_copy_cInSUPP(7).plot' using 1:2 w boxes title "Nombre de copies de valeurs effectuees"
+
+plot [0:1000000][0:600] 'dynamic_array_time_cInSUPP(20).plot' using 1:3 w lines title "Amortized C",
+plot 'dynamic_array_memory_cInSUPP(20).plot' using 1:3 w lines title "Espace memoire inutilise"
+plot 'dynamic_array_copy_cInSUPP(20).plot' using 1:2 w boxes title "Nombre de copies de valeurs effectuees"
+
+
+
+
+
+
+
+
+
+VALaleaInSUPDyn(cout-amorti)(1.5).png
+VALaleaInSUPDyn(cout-reel)(1.5).png
+VALaleaInSUPDynNC(cout-amorti)(1.5).png
+VALaleaInSUPDynEI(cout-amorti)(1.5).png
+VALaleaInSUPDynEI-NC(1.5).png
+
+
+
+
+
+
+VALaleaInsDyn(cout-amorti)(3).png
+VALaleaInsDyn(cout-reel)(3).png
+VALaleaInsDynNC(cout-amorti)(3).png
+VALaleaInsDynEI(cout-amorti)(3).png
+VALaleaInsDynEI-NC(3).png
+
+
+VALaleaInsDyn(cout-amorti)(1.5).png
+VALaleaInsDyn(cout-reel)(1.5).png
+VALaleaInsDynNC(cout-amorti)(1.5).png
+VALaleaInsDynEI(cout-amorti)(1.5).png
+VALaleaInsDynEI-NC(1.5).png
+
+
+VALaleaInsDyn(cout-amorti)(2.3).png
+VALaleaInsDyn(cout-reel)(2.3).png
+VALaleaInsDynNC(cout-amorti)(2.3).png
+VALaleaInsDynEI(cout-amorti)(2.3).png
+VALaleaInsDynEI-NC(2.3).png
+
+
+
+VALaleaInsDyn(cout-amorti)(10).png
+VALaleaInsDyn(cout-reel)(10).png
+VALaleaInsDynNC(cout-amorti)(10).png
+VALaleaInsDynEI(cout-amorti)(10).png
+VALaleaInsDynEI-NC(10).png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
